@@ -10,16 +10,16 @@
     <!--titulo da aba da pagina-->
   </head>
   <body>
-    <div class="pageContent">
-      <h2 id="name">Nome do Pokemon</h2>
+    <div class="conteudoPagina">
+      <h2 id="nome">Nome do Pokemon</h2>
       <img
-        id="img_sprite_front_default"
+        id="imagemPokemon"
         src="../assets/missingno.png"
         alt="Imagem do Pokemon"
       />
-      <div>
-        <button id="previous" onclick="previousPokemon()">Anterior</button>
-        <button id="next" onclick="nextPokemon()">Proximo</button>
+      <div class="containerBotoes">
+        <button id="anterior" onclick="pokemonAnterior()">Anterior</button>
+        <button id="proximo" onclick="pokemonProximo()">Proximo</button>
       </div>
     </div>
   </body>
