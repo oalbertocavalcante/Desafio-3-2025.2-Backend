@@ -1,4 +1,4 @@
-# 📚 Documentação do Projeto
+# 🦊 Documentação do Projeto
 
 ### O que compõe o desafio
 
